@@ -7608,7 +7608,8 @@ NPCToonNames = {20000: 'Tutorial Tom',
  7007: 'Dewin Tymme',
  7008: 'Ima Cagedtoon',
  7009: 'Jimmy Thelock',
- 7010: "Baron Bongo Blubberblabber"}
+ 7010: "Baron Bongo Blubberblabber",
+ 7011: "Prye the Pie Guy"}
 zone2TitleDict = {2513: ('Toon Hall', ''),
  2514: ('Toontown Bank', ''),
  2516: ('Toontown School House', ''),

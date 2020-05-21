@@ -11505,7 +11505,27 @@ NPCToonDict = {20000: (-1,
          6),
         'm',
         0,
-        NPC_REGULAR)}
+        NPC_REGULAR),
+ 7011: (2000,
+        lnames[7011],
+        ('fls',
+         'ls',
+         's',
+         'm',
+         15,
+         0,
+         15,
+         15,
+         152,
+         27,
+         138,
+         27,
+         58,
+         27),
+        'm',
+        0,
+        NPC_CLERK)}
+
 try:
     config = simbase.config
 except:

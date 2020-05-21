@@ -26,6 +26,49 @@ class TTHood(ToonHood.ToonHood):
 
     def load(self):
         ToonHood.ToonHood.load(self)
+        self.rightcrate = loader.loadModel('phase_9/models/cogHQ/woodCrateB.bam')
+        self.rightcrate.reparentTo(render)
+        self.rightcrate.setPos(-86.258, -72.919, 0.025)
+        self.rightcrate.setHpr(1388.509, 0, 0)
+
+        self.throw1 = loader.loadModel('phase_5/models/props/birthday-cake-mod.bam')
+        self.throw1.reparentTo(render)
+        self.throw1.setPos(-86.347, -75.368, 5.550)
+        self.throw1.setHpr(105.190, 0, 0)
+
+        self.throw2 = loader.loadModel("phase_5/models/props/wedding_cake.bam")
+        self.throw2.reparentTo(render)
+        self.throw2.setPos(-87.451, -73.697, 5.550)
+        self.throw2.setHpr(33.444, 0, 0)
+
+        self.throw3 = loader.loadModel('phase_3.5/models/props/tart.bam')
+        self.throw3.reparentTo(render)
+        self.throw3.setPos(-86.802, -71.279, 5.550)
+        self.throw3.setHpr(-15.006, 0, 0)
+
+        self.throw4 = loader.loadModel('phase_5/models/props/fruit-pie-slice.bam')
+        self.throw4.reparentTo(render)
+        self.throw4.setPos(-84.395, -72.557, 5.550)
+        self.throw4.setHpr(-22.814, 0, 0)
+
+        self.throw5 = loader.loadModel('phase_3.5/models/props/tart.bam')
+        self.throw5.reparentTo(render)
+        self.throw5.setPos(-84.712, -74.532, 5.550)
+        self.throw5.setHpr(-189.119, 0, 0)
+        self.throw5.setScale(0.5)
+
+
+
+        self.topcrate = loader.loadModel('phase_9/models/cogHQ/woodCrateB.bam')  # lure
+        self.topcrate.reparentTo(render)
+        self.topcrate.setPos(-89.906, -69.429, 5.550)
+        self.topcrate.setHpr(-761.246, 0, 0)
+
+        self.frontcrate = loader.loadModel('phase_9/models/cogHQ/woodCrateB.bam') #toonup
+        self.frontcrate.reparentTo(render)
+        self.frontcrate.setPos(-87.818, -67.398, 0.025)
+        self.frontcrate.setHpr(-713.008, 0, 0)
+
         self.parentFSM.getStateNamed('TTHood').addChild(self.fsm)
 
     def unload(self):
