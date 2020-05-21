@@ -731,7 +731,7 @@ class DistributedToonAI(DistributedPlayerAI.DistributedPlayerAI, DistributedSmoo
         return 1
 
     def restockAllNPCFriends(self):
-        desiredNpcFriends = [2001,
+        desiredNpcFriends = [7010,
          2011,
          3112,
          4119,

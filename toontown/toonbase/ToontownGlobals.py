@@ -1390,7 +1390,7 @@ LawbotBossJurorsForBalancedScale = 8
 LawbotBossDamagePerJuror = 68
 LawbotBossCogJurorFlightTime = 10
 LawbotBossCogJurorDistance = 75
-LawbotBossBaseJurorNpcId = 2001
+LawbotBossBaseJurorNpcId = 7010
 LawbotBossWitnessEpiloguePosHpr = (-3,
  0,
  0,
